@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Sierpinski-Carpet</title>
+	<script type="text/javascript" src="../shared/math.min.js"></script>
+	<script type="text/javascript" src="fractal.js"></script>
+	<link rel="stylesheet" href="../shared/style.css">
+</head>
+
+<body>
+	<div id="input">
+		<label for="size">Size:</label>
+		<input id="size" type="text" value="500">
+		
+		<label for="level">Level:</label>
+		<input id="level" type="text" value="5">
+
+		<button class="menu-buttons" id="run" type="button" onclick="main()">
+			Run
+		</button>
+	</div>
+	<canvas id="canvas"></canvas>
+</body>
+
+</html>

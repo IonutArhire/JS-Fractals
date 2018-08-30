@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>MandelBrot Set</title>
+	<script type="text/javascript" src="../shared/math.min.js"></script>
+	<script type="text/javascript" src="fractal.js"></script>
+	<link rel="stylesheet" href="../shared/style.css">
+</head>
+
+<body>
+	<div id="input">
+		<label for="accuracy"> Accuracy:</label>
+		<input id="accuracy" type="text" value="20">
+		
+		<label for="zoom"> Zoom:</label>
+		<input id="zoom" type="text" value="200">
+
+		<label for="width"> Width:</label>
+		<input id="width" type="text" value="1200">
+
+		<label for="height"> Height:</label>
+		<input id="height" type="text" value="600">
+
+		<button class="menu-buttons" id="run" type="button" onclick="main()">
+			Run
+		</button>
+	</div>
+	<canvas id="canvas"></canvas>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+html,
+body {
+    margin: 0px;
+    overflow: hidden;
+}
+
+div#input {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+input {
+    margin-right: 10px;
+}
